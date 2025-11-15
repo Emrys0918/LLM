@@ -1,0 +1,66 @@
+# Ignore nested repo backup
+llm_practice/.git.bak/
+
+# --- Common Python ignores ---
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.dylib
+*.egg
+*.egg-info/
+.eggs/
+.Python
+
+# Environments
+.env
+.venv
+venv/
+ENV/
+
+# Packaging / build
+build/
+develop-eggs/
+dist/
+downloads/
+lib/
+lib64/
+parts/
+sdist/
+var/
+pip-wheel-metadata/
+share/python-wheels/
+.installed.cfg
+
+# Tool caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.cache/
+.tox/
+.coverage
+.coverage.*
+coverage.xml
+htmlcov/
+
+# Editors/IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Jupyter
+.ipynb_checkpoints/
+.jupyter/
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# data
+data/
+.txt
